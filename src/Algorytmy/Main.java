@@ -8,11 +8,7 @@ public class Main {
         AlgorithmFactory factory = new AlgorithmFactory();
         AbstractAlgorithm algorithm = factory.
                 getAlgorithm(algorithmName);
-
-//        for(int i=0; i < args.length; i++) {
-//            System.out.println(args[i]);
-//        }
-
+        System.out.println("Wykonujemy algorytm: " + algorithm.getName());
         algorithm.runAlgorithm(args);
 
     }

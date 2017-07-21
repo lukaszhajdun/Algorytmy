@@ -7,6 +7,8 @@ public class AlgorithmFactory {
         switch (name.toLowerCase()) {
             case "test":
                 return new Test();
+            case "biednycamelcase":
+                return new BiednyCamelCase();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu");
