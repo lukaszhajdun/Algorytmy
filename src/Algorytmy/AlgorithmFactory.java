@@ -8,6 +8,9 @@ public class AlgorithmFactory {
             case "test":
                 return new Test();
 
+            case "biednycamelcase1":
+                return new BiednyCamelCase1();
+
             case "biednycamelcase":
                 return new BiednyCamelCase();
 
@@ -31,6 +34,15 @@ public class AlgorithmFactory {
 
             case "cyfrysilni":
                 return new CyfrySilni();
+
+            case "ciagfibonacciego":
+                return new CiagFibonacciego();
+
+            case "szyfrcezara1":
+                return new SzyfrCezara1();
+
+            case "szyfrcezara":
+                return new SzyfrCezara();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu");
