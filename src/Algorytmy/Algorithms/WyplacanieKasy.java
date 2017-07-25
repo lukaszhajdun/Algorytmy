@@ -25,7 +25,7 @@ public class WyplacanieKasy extends AbstractAlgorithm {
         int[] gr = {50, 20, 10, 5, 2, 1};
 
         int[] wydamybanknoty = {0,0,0,0,0,0,0,0};
-        int[] wydamymonety = {0,0,0,0,0,0,0,0};
+        int[] wydamymonety = {0,0,0,0,0,0};
 
 
 
