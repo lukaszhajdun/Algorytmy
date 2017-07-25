@@ -15,33 +15,34 @@ public class KodCezara extends AbstractAlgorithm{
     public void runAlgorithm(String[] input) {
         for(int wordCounter = 1; wordCounter<input.length; wordCounter++) {
 
-            String word = input [wordCounter];
+            String word = (input [wordCounter]).toUpperCase();
 
             char[] lettersInWord = word.toCharArray();
-            int length = lettersInWord.length;
+
             for (int i = 0 ; i< lettersInWord.length; i++) {
                 char letter = word.charAt(i);
-                if (letter >= 'a' && letter<= 'x') {
-                    letter +=2;
+                if (letter >= 'A' && letter < 'X') {
+                    letter +=3;
 
 
                 } else {
-                    if (letter == 'x') {
-                        letter = 'a';
+                    if (letter == 'X') {
+                        letter = 'A';
                     }
-                    if (letter == 'y') {
-                        letter = 'b';
+                    if (letter == 'Y') {
+                        letter = 'B';
                     }
-                    if (letter == 'z') {
-                        letter = 'c';
+                    if (letter == 'Z') {
+                        letter = 'C';
                     }
+
                 }
-                System.out.println(letter);
+                System.out.print(letter);
 
 
 
             }
-            System.out.println(word);
+            System.out.print(" ");
 
 
 
