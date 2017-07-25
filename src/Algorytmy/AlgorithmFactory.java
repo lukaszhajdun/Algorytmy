@@ -23,6 +23,15 @@ public class AlgorithmFactory {
             case "kodcezara":
                 return new KodCezara();
 
+            case "silnia":
+                return new Silnia();
+
+            case "sumakolejnychliczb":
+                return new SumaKolejnychLiczb();
+
+            case "cyfrysilni":
+                return new CyfrySilni();
+
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
