@@ -20,6 +20,9 @@ public class AlgorithmFactory {
             case "wyplacaniekasy":
                 return new WyplacanieKasy();
 
+            case "kodcezara":
+                return new KodCezara();
+
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
