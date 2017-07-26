@@ -1,0 +1,43 @@
+package Algorytmy.Algorithms;
+
+import Algorytmy.AbstractAlgorithm;
+
+public class SortowanieBabelkowe extends AbstractAlgorithm {
+    @Override
+    public String getName() {
+        return "Sortowanie babelkowe";
+    }
+
+    @Override
+    public void runAlgorithm(String[] input) {
+
+        int[] inputTab = new int[input.length-1];
+
+
+
+
+        for (int i=1; i <= inputTab.length-1; i++) {
+            inputTab[i] = Integer.parseInt(input[i+1]);
+        }
+            for (int j = 0; j < (inputTab.length - 1); j++) {
+
+            if (j > j + 1) {
+                int temp = inputTab[j];
+                inputTab[j + 1] = inputTab [j];
+                inputTab[j] = temp;
+
+
+
+
+            }
+
+
+
+
+            }
+
+
+
+        }
+        }
+
