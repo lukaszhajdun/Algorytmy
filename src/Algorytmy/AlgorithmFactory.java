@@ -44,9 +44,14 @@ public class AlgorithmFactory {
             case "szyfrcezara":
                 return new SzyfrCezara();
 
+            case "sortowaniebabelkowe1":
+                return new SortowanieBabelkowe1();
+
             case "sortowaniebabelkowe":
                 return new SortowanieBabelkowe();
 
+            case "sortowaniewzgledempunktu":
+                return new SortowanieWzgledemPunktu();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu");
