@@ -74,6 +74,9 @@ public class AlgorithmFactory {
             case "minmax":
                 return new MinMax();
 
+            case "lider":
+                return new Lider();
+
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

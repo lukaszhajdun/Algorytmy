@@ -15,20 +15,10 @@ public class MinMax extends AbstractAlgorithm {
 
         for (int i = 0; i < tablica.length; i++) {
             tablica[i] = Integer.parseInt(input[i + 2]);
-            int max = Integer.MIN_VALUE;
-            int min = Integer.MAX_VALUE;
-
-            if (tablica[i] < max) {
-                max = i;            }
 
 
 
 
-                if (tablica[i] > min) {
-                    min = i;
-
-
-                }
 
 
 
