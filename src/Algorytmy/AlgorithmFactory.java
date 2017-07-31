@@ -26,6 +26,9 @@ public class AlgorithmFactory {
             case "kodcezara":
                 return new KodCezara();
 
+            case "dekodcezara":
+                return new DeKodCezara();
+
             case "silnia":
                 return new Silnia();
 

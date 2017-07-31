@@ -15,14 +15,9 @@ public class SumaPodanychLiczb extends AbstractAlgorithm {
     public void runAlgorithm(String[] input) {
         System.out.println("Suma podanych liczb naturalnych");
 
-
-
         int sumaLiczb = 0;
         for (int i = 1; i < input.length; i++) {
-
             sumaLiczb += Integer.parseInt(input[i]);
-
-
         }
         System.out.println("Suma podanych liczb to " + sumaLiczb);
 

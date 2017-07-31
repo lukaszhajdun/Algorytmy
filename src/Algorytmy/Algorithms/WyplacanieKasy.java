@@ -19,17 +19,11 @@ public class WyplacanieKasy extends AbstractAlgorithm {
         int zlotowki = Integer.parseInt(input[1]);
         int grosze = Integer.parseInt(input[2]);
 
-
-
         int[] zl  = {200,100,50,20,10,5,2,1};
         int[] gr = {50, 20, 10, 5, 2, 1};
 
         int[] wydamybanknoty = {0,0,0,0,0,0,0,0};
         int[] wydamymonety = {0,0,0,0,0,0};
-
-
-
-
 
         while (zlotowki > 0) {
             for (int i = 0; i < zl.length;i++){
@@ -51,20 +45,7 @@ public class WyplacanieKasy extends AbstractAlgorithm {
             }
         }
 
-
-
         System.out.println("Wydano banknoty: " + Arrays.toString(wydamybanknoty));
         System.out.println("Wydano monety: " + Arrays.toString(wydamymonety));
-
-
-
-
-
     }
-
-
-//    int [200,100,50,20,10,5,2,1]
-//    int [50,20,10,5,2,1]
-//    wydamy bank [0,0,0,0,0,0,0,0]
-//    wydamy grosz [0,0,0,0,0,0,0];
 }

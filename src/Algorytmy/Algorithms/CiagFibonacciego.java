@@ -18,7 +18,6 @@ public class CiagFibonacciego extends AbstractAlgorithm{
         int n = Integer.parseInt(input[1]);
         System.out.println(Fib(n));
     }
-
     private int Fib(int n){
         switch (n) {
             case 0:
@@ -29,7 +28,6 @@ public class CiagFibonacciego extends AbstractAlgorithm{
 
             default:
                return Fib(n-1) + Fib(n-2);
-
         }
     }
 }

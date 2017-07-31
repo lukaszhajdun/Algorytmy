@@ -14,7 +14,6 @@ public class SzyfrCezara extends AbstractAlgorithm {
     String[] _letters = {"A","B,","C","D","E","F","G","H","I","J","K"
             ,"L","M","N","O","P","R","S","T","U","W","X","Y","Z"};
 
-
     @Override
     public void runAlgorithm(String[] input) {
         for (int words = 1; words < input.length; words++) {

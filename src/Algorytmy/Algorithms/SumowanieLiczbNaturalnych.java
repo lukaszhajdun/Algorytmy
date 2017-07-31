@@ -17,16 +17,11 @@ public class SumowanieLiczbNaturalnych extends AbstractAlgorithm {
         int sumaLiczbNaturalnych = 0;
         int i=1;
 
-
-
         while (i <= n) {
             sumaLiczbNaturalnych += i;
             System.out.println(i + "=" + sumaLiczbNaturalnych);
             i++;
-
         }
         System.out.println("Dla i = " + i + " Suma liczb naturalnych wynosi " + sumaLiczbNaturalnych);
-
-
     }
 }
