@@ -53,6 +53,9 @@ public class AlgorithmFactory {
             case "sortowaniewzgledempunktu":
                 return new SortowanieWzgledemPunktu();
 
+            case "sortowanieprzezzliczanie":
+                return new SortowaniePrzezZliczanie();
+
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
