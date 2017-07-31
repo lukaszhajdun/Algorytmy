@@ -2,13 +2,10 @@ package Algorytmy.Algorithms;
 
 import Algorytmy.AbstractAlgorithm;
 
-/**
- * Created by jake on 28.07.2017.
- */
 public class PlanszaWarcaby extends AbstractAlgorithm {
     @Override
     public String getName() {
-        return "Plansza od warcab";
+        return "Plansza Warcaby";
     }
 
     @Override

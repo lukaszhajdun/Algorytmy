@@ -62,6 +62,12 @@ public class AlgorithmFactory {
             case "planszawarcaby":
                 return new PlanszaWarcaby();
 
+            case "wielkanoc":
+                return new Wielkanoc();
+
+            case "spacjecamelcase":
+                return new SpacjeCamelCase();
+
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
