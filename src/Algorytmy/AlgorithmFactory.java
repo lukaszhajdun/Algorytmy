@@ -56,6 +56,9 @@ public class AlgorithmFactory {
             case "sortowanieprzezzliczanie":
                 return new SortowaniePrzezZliczanie();
 
+            case "nwd":
+                return new NajwiekszyWspolnyDzielnik();
+
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
