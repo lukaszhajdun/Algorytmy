@@ -59,6 +59,9 @@ public class AlgorithmFactory {
             case "nwd":
                 return new NajwiekszyWspolnyDzielnik();
 
+            case "planszawarcaby":
+                return new PlanszaWarcaby();
+
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
