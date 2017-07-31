@@ -14,9 +14,10 @@ public class SpacjeCamelCase extends AbstractAlgorithm {
         for (int wordsCounter = 1; wordsCounter < input.length; wordsCounter++) {
             String word = input[wordsCounter];
             char[] lettersInWord = word.toCharArray();
-            
+
 
             System.out.println(lettersInWord);
+
 
 //            for (int lettersCounter = 0; lettersCounter < lettersInWord.length; lettersCounter++) {
 //                if ( letters == 0) {

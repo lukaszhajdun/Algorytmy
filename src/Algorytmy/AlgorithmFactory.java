@@ -68,6 +68,12 @@ public class AlgorithmFactory {
             case "spacjecamelcase":
                 return new SpacjeCamelCase();
 
+            case "zadanka":
+                return new Zadanka();
+
+            case "minmax":
+                return new MinMax();
+
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
