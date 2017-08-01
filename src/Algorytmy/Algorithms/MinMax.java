@@ -11,7 +11,7 @@ public class MinMax extends AbstractAlgorithm {
     @Override
     public void runAlgorithm(String[] input) {
         int n = (input.length-1);
-        int[] tablicaLiczb = new int[n]; // długość tablicy
+        int[] tablicaLiczb = new int[n];
 
         for (int i = 0; i < tablicaLiczb.length; i++) {
             tablicaLiczb[i] = Integer.parseInt(input[i + 1]);

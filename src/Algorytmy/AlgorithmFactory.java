@@ -77,6 +77,12 @@ public class AlgorithmFactory {
             case "lider":
                 return new Lider();
 
+            case "testowanielisty":
+                return new TestowanieListy();
+
+            case "listakolorow":
+                return new ListaKolorow();
+
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
