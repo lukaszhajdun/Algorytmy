@@ -83,6 +83,10 @@ public class AlgorithmFactory {
             case "listakolorow":
                 return new ListaKolorow();
 
+            case "spacjecamelcaseodwrotnosc":
+                return new SpacjeCamelCaseOdwrotnosc();
+
+
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
