@@ -27,8 +27,7 @@ public class SpacjeCamelCaseOdwrotnosc extends AbstractAlgorithm {
                 reszta = znaki[i];
                 System.out.print(reszta);
             }
-
-
+            
         }
 
     }
