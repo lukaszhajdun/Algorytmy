@@ -6,12 +6,9 @@ import java.util.ArrayList;
 
 public class ListaKolorow extends AbstractAlgorithm{
 
-
-
-
     @Override
     public String getName() {
-        return null;
+        return "Lista kolorow";
     }
 
     @Override

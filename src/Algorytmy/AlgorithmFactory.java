@@ -92,7 +92,8 @@ public class AlgorithmFactory {
             case "imieninyjasia":
                 return new ImieninyJasia();
 
-
+            case "prostedrzewo":
+                return new ProsteDrzewo();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu");

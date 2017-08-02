@@ -1,4 +1,4 @@
-package Struntury;
+package Struktury;
 
 public class Element {
     int data;

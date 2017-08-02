@@ -1,4 +1,4 @@
-package Struntury;
+package Struktury;
 
 public class mList {
     Element _head;

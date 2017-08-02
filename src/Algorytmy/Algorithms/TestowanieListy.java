@@ -1,7 +1,7 @@
 package Algorytmy.Algorithms;
 
 import Algorytmy.AbstractAlgorithm;
-import Struntury.mList;
+import Struktury.mList;
 
 
 public class TestowanieListy extends AbstractAlgorithm {
