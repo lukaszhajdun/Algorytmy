@@ -5,7 +5,7 @@ import Algorytmy.AbstractAlgorithm;
 public class SpacjeCamelCaseOdwrotnosc extends AbstractAlgorithm {
     @Override
     public String getName() {
-        return null;
+        return "Spacje Camel Case Odwrotnosc";
     }
 
     @Override

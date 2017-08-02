@@ -11,12 +11,12 @@ import java.util.Locale;
  */
 public class DateTime {
     public static void main(String[] args) {
-//        dateLocal();
+        dateLocal();
 //        timeLocal();
 //        dateTimeLocal();
 //        zoned();
 //        periodDuration();
-        formatting();
+//        formatting();
 //        temporalAdjusters();
     }
 

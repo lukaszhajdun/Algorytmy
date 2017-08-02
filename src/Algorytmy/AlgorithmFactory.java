@@ -86,6 +86,10 @@ public class AlgorithmFactory {
             case "spacjecamelcaseodwrotnosc":
                 return new SpacjeCamelCaseOdwrotnosc();
 
+            case "dzientygodnia":
+                return new DzienTygodnia();
+
+
 
             default:
                 throw new Exception("Nie ma takiego algorytmu");
