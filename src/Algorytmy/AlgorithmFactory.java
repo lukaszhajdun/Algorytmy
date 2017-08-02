@@ -89,6 +89,9 @@ public class AlgorithmFactory {
             case "dzientygodnia":
                 return new DzienTygodnia();
 
+            case "imieninyjasia":
+                return new ImieninyJasia();
+
 
 
             default:

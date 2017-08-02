@@ -24,16 +24,11 @@ public class SzyfrCezara1 extends AbstractAlgorithm {
             for (int i = 0; i < lettersInWord.length; i++) {
                 int pozycja = letterposition(lettersInWord[i]);
                 System.out.printf("%s", literkiAlfabetu[(pozycja+3)%literkiAlfabetu.length]);
-
             }
-
-
         }
-
-
     }
-    char[] literkiAlfabetu;
 
+    char[] literkiAlfabetu;
 
     private int letterposition (char letter) {
         for (int i=0; i < literkiAlfabetu.length; i++) {
