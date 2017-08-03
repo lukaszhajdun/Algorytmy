@@ -114,6 +114,8 @@ public class AlgorithmFactory {
             case "odwrotnanotacjapolska":
                 return new OdwrotnaNotacjaPolska();
 
+            case "przedszkolanka":
+                return new Przedszkolanka();
 
 
             default:
