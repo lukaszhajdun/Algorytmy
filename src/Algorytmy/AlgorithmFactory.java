@@ -1,6 +1,7 @@
 package Algorytmy;
 
 import Algorytmy.Algorithms.*;
+import Algorytmy.HomeWork.*;
 
 public class AlgorithmFactory {
     public AbstractAlgorithm getAlgorithm(String name) throws Exception {
@@ -93,7 +94,7 @@ public class AlgorithmFactory {
                 return new ImieninyJasia();
 
             case "prostedrzewo":
-                return new ProsteDrzewo();
+                return new ProsteDrzewoMoje();
 
             default:
                 throw new Exception("Nie ma takiego algorytmu");

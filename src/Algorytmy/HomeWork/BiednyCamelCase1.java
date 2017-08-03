@@ -1,4 +1,4 @@
-package Algorytmy.Algorithms;
+package Algorytmy.HomeWork;
 
 import Algorytmy.AbstractAlgorithm;
 import com.sun.xml.internal.fastinfoset.util.CharArray;
