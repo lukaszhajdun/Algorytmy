@@ -19,6 +19,7 @@ public class Pesel extends AbstractAlgorithm {
             System.out.print(pesel[i - 1]);
 
         }
+
         System.out.println();
         if (pesel.length != 11) {
             System.out.println("PESEL nie jest poprawny");

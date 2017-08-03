@@ -102,6 +102,12 @@ public class AlgorithmFactory {
             case "pesel":
                 return new Pesel();
 
+            case "testowaniekopca":
+                return new TestowanieKopca();
+
+            case "testowaniekopcakuby":
+                return new TestowanieKopcaKuby();
+
 
 
             default:
