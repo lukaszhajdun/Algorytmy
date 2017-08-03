@@ -96,6 +96,14 @@ public class AlgorithmFactory {
             case "prostedrzewo":
                 return new ProsteDrzewoMoje();
 
+            case "najmniejszawspolnawielokrotnosc":
+                return new NajmniejszaWspolnaWielokrotnosc();
+
+            case "pesel":
+                return new Pesel();
+
+
+
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
