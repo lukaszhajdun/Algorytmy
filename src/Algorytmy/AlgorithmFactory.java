@@ -108,6 +108,12 @@ public class AlgorithmFactory {
             case "testowaniekopcakuby":
                 return new TestowanieKopcaKuby();
 
+            case "przeliczaniesystemow":
+                return new PrzeliczanieSystemow();
+
+            case "odwrotnanotacjapolska":
+                return new OdwrotnaNotacjaPolska();
+
 
 
             default:
