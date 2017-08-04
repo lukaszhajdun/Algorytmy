@@ -117,6 +117,9 @@ public class AlgorithmFactory {
             case "przedszkolanka":
                 return new Przedszkolanka();
 
+            case "zmienneitablice":
+                return new ZmienneITablice();
+
 
             default:
                 throw new Exception("Nie ma takiego algorytmu");

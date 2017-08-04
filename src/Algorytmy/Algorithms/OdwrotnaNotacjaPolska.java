@@ -31,7 +31,6 @@ public class OdwrotnaNotacjaPolska extends AbstractAlgorithm {
                         arg1 = stos.pop();
                         wynik = arg2 * arg1;
                         stos.push(wynik);
-
                         break;
 
                     case "I":   //dzielenie

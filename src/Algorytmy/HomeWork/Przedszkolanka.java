@@ -2,9 +2,6 @@ package Algorytmy.HomeWork;
 
 import Algorytmy.AbstractAlgorithm;
 
-/**
- * Created by Kroolik on 2017-08-03.
- */
 public class Przedszkolanka extends AbstractAlgorithm {
     @Override
     public String getName() {
