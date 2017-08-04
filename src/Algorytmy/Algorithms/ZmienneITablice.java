@@ -5,7 +5,7 @@ import Algorytmy.AbstractAlgorithm;
 public class ZmienneITablice extends AbstractAlgorithm  {
     @Override
     public String getName() {
-        return "Tablice i zmienne";
+        return "Zmienne i tablice";
     }
 
     @Override
@@ -18,20 +18,22 @@ public class ZmienneITablice extends AbstractAlgorithm  {
         }
 
         for (int i = 0; i < tablicaLiczb.length; i++) {
-            for (int j = 0; j <= i; j++) {
-                if (tablicaLiczb[i] == tablicaLiczb [j]) {
-                    System.out.printf("Powtarza sie element %d na indeksie i = %d, j = %d", tablicaLiczb[i], i, j);
+            for (int j = 0; j < i; j++) {
+
+                if (tablicaLiczb[j] == tablicaLiczb[i]) {
+                    System.out.printf("Powtarza sie element %d na indeksie i = %d, j = %d \n", tablicaLiczb[i], i, j);
                     return;
                 }
+            }
+        }
 
-                if (tablicaLiczb[i] != tablicaLiczb [j]) {
+        for (int i = 0; i < tablicaLiczb.length; i++) {
+            for (int j = 0; j < i; j++) {
+                if (tablicaLiczb[j] != tablicaLiczb [i]) {
                     System.out.printf("Tablica nie ma powtarzajacych sie elementow.");
                     return;
                 }
-
-
             }
-
         }
 
     }

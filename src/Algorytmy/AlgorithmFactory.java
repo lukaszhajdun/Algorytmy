@@ -120,6 +120,9 @@ public class AlgorithmFactory {
             case "zmienneitablice":
                 return new ZmienneITablice();
 
+            case "listaliczb":
+                return new ListaLiczb();
+
 
             default:
                 throw new Exception("Nie ma takiego algorytmu");
