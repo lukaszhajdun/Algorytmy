@@ -29,11 +29,10 @@ public class PrzeliczanieSystemow extends AbstractAlgorithm {
             System.out.printf("%d", stosCyfr.peek());
             stosCyfr.pop();
 
-
         }
-
-        }
-
 
     }
+
+
+}
 

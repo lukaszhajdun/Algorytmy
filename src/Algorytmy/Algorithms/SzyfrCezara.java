@@ -2,9 +2,6 @@ package Algorytmy.Algorithms;
 
 import Algorytmy.AbstractAlgorithm;
 
-/**
- * Created by RENT on 2017-07-25.
- */
 public class SzyfrCezara extends AbstractAlgorithm {
     @Override
     public String getName() {
@@ -27,17 +24,14 @@ public class SzyfrCezara extends AbstractAlgorithm {
                 System.out.printf("%s", _letters[move]);
             }
             System.out.print(" ");
-
         }
-
-
     }
 
     private int getLetterPosition(String letter) {
         for (int i = 0 ; i < _letters.length; i++)  {
-        if (letter.equals(_letters[i])) {
+            if (letter.equals(_letters[i])) {
             return i;
-        }
+            }
         }
         return -1;
     }

@@ -13,6 +13,8 @@ public class Lider extends AbstractAlgorithm {
         //Sortowanie przez zliczanie
         int tablength = (input.length - 1);
 
+        //DOKONCZYC W DOMU
+
 
     }
 }

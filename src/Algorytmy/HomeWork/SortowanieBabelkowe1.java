@@ -12,7 +12,6 @@ public class SortowanieBabelkowe1 extends AbstractAlgorithm {
     public void runAlgorithm(String[] input) {
         int[] inputTab = new int[input.length-1];
 
-
         for (int i=0; i < inputTab.length; i++) {
 
             inputTab[i] = Integer.parseInt(input[i+1]);
@@ -26,21 +25,12 @@ public class SortowanieBabelkowe1 extends AbstractAlgorithm {
                 int temp = inputTab[j];
                 inputTab[j] = inputTab [j+1];
                 inputTab[j+1] = temp;
-
-
-
-
             }
 
-
-
-
-
-            }
+        }
         for(int i = 0; i < inputTab.length; i++)
             System.out.print(inputTab[i] + " ");
 
-
-        }
-        }
+    }
+}
 

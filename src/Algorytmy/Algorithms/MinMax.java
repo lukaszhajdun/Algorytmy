@@ -24,8 +24,6 @@ public class MinMax extends AbstractAlgorithm {
                 min = i;
             if (tablicaLiczb[i] > tablicaLiczb[max])
                 max = i;
-
-
         }
         System.out.println("Max = " + max);
         System.out.println("Min = " + min);

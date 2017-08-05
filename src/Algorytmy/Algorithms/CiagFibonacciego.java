@@ -4,9 +4,6 @@ import Algorytmy.AbstractAlgorithm;
 
 import java.lang.invoke.SwitchPoint;
 
-/**
- * Created by RENT on 2017-07-25.
- */
 public class CiagFibonacciego extends AbstractAlgorithm{
     @Override
     public String getName() {

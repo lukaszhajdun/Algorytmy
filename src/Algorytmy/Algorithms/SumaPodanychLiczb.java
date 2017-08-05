@@ -2,9 +2,6 @@ package Algorytmy.Algorithms;
 
 import Algorytmy.AbstractAlgorithm;
 
-/**
- * Created by RENT on 2017-07-24.
- */
 public class SumaPodanychLiczb extends AbstractAlgorithm {
     @Override
     public String getName() {
@@ -20,8 +17,6 @@ public class SumaPodanychLiczb extends AbstractAlgorithm {
             sumaLiczb += Integer.parseInt(input[i]);
         }
         System.out.println("Suma podanych liczb to " + sumaLiczb);
-
-
 
     }
 }

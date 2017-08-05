@@ -16,6 +16,8 @@ public class SpacjeCamelCaseOdwrotnosc extends AbstractAlgorithm {
         Character separator;
         Character reszta;
 
+        //DO POPRAWY
+
         for (int i = 0; i < znaki.length; i++) {
             if (znaki[i] <= 'Z' && znaki[i] >= 'A') {
 
@@ -27,7 +29,6 @@ public class SpacjeCamelCaseOdwrotnosc extends AbstractAlgorithm {
                 reszta = znaki[i];
                 System.out.print(reszta);
             }
-
         }
 
     }

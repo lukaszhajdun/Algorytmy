@@ -2,9 +2,6 @@ package Algorytmy.Algorithms;
 
 import Algorytmy.AbstractAlgorithm;
 
-/**
- * Created by RENT on 2017-07-25.
- */
 public class Silnia extends AbstractAlgorithm {
     @Override
     public String getName() {
@@ -16,8 +13,6 @@ public class Silnia extends AbstractAlgorithm {
         int n = Integer.parseInt(input[1]);
         System.out.println("Dla n = " + n);
         System.out.println("Silnia = " + Silnia(n));
-
-
     }
 
     private int Silnia(int n) {

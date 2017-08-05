@@ -23,8 +23,6 @@ public class Przedszkolanka extends AbstractAlgorithm {
             return klasaB;
         else {
             return nwd(klasaB % klasaA, klasaA);
-
-
         }
     }
 }
