@@ -120,8 +120,8 @@ public class AlgorithmFactory {
             case "zmienneitablice":
                 return new ZmienneITablice();
 
-            case "listaliczb":
-                return new ListaLiczb();
+            case "bajtockieswietotrojkata":
+                return new BajtockieSwietoTrojkata();
 
 
             default:
