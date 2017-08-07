@@ -123,6 +123,9 @@ public class AlgorithmFactory {
             case "bajtockieswietotrojkata":
                 return new BajtockieSwietoTrojkata();
 
+            case "deszyfrcezara":
+                return new DeSzyfrCezara();
+
 
             default:
                 throw new Exception("Nie ma takiego algorytmu");

@@ -20,7 +20,6 @@ public class TestowanieKopca extends AbstractAlgorithm {
         }
 
         kopiec.printAllElements();
-// TRZEBA DODAC USUWANIE ELEMENTU I POSORTOWAC WSZYSTKO
-//        kopiec.sort();
+        kopiec.sortowanie();
     }
 }

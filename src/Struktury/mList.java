@@ -66,7 +66,7 @@ public class mList {
         return p;
     }
 
-    public void printAllElements(mList list) { //Tu jest cos nie tak
+    public void printAllElements(mList list) {
         Element p = list._head;
         while (p != null) {
             System.out.println(p.data);
