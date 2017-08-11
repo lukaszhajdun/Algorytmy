@@ -3,9 +3,6 @@ package Algorytmy.Algorithms;
 import Algorytmy.AbstractAlgorithm;
 import com.sun.org.apache.xpath.internal.SourceTree;
 
-/**
- * Created by RENT on 2017-07-25.
- */
 public class CyfrySilni extends AbstractAlgorithm {
     @Override
     public String getName() {

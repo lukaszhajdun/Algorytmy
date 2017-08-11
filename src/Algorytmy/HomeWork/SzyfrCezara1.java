@@ -2,9 +2,6 @@ package Algorytmy.HomeWork;
 
 import Algorytmy.AbstractAlgorithm;
 
-/**
- * Created by RENT on 2017-07-25.
- */
 public class SzyfrCezara1 extends AbstractAlgorithm {
     @Override
     public String getName() {

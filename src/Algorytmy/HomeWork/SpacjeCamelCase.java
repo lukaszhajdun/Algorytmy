@@ -22,11 +22,6 @@ public class SpacjeCamelCase extends AbstractAlgorithm {
 
                     System.out.printf(Character.toString(word.charAt(lettersCounter)).toLowerCase());
                 }
-
-
-
-
             }
         }
-
     }

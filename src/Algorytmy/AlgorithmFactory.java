@@ -102,6 +102,29 @@ public class AlgorithmFactory {
             case "pesel":
                 return new Pesel();
 
+            case "testowaniekopca":
+                return new TestowanieKopca();
+
+            case "testowaniekopcakuby":
+                return new TestowanieKopcaKuby();
+
+            case "przeliczaniesystemow":
+                return new PrzeliczanieSystemow();
+
+            case "odwrotnanotacjapolska":
+                return new OdwrotnaNotacjaPolska();
+
+            case "przedszkolanka":
+                return new Przedszkolanka();
+
+            case "zmienneitablice":
+                return new ZmienneITablice();
+
+            case "bajtockieswietotrojkata":
+                return new BajtockieSwietoTrojkata();
+
+            case "deszyfrcezara":
+                return new DeSzyfrCezara();
 
 
             default:

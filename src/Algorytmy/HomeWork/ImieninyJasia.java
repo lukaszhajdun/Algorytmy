@@ -15,22 +15,14 @@ public class ImieninyJasia extends AbstractAlgorithm {
 
         int ileCukierkowZostalo = liczbaCukierkow % liczbaOsob;
 
-
         if (liczbaOsob > liczbaCukierkow) {
             System.out.println("Brakuje cukierków.");
-
-        }
-        else
-
-
+        } else
             if (ileCukierkowZostalo == 0) {
                 System.out.println("Nie");
-
             } else {
                 System.out.println("TAK");
                 System.out.println(ileCukierkowZostalo);
-
             }
-
     }
 }

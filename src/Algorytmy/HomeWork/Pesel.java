@@ -17,12 +17,12 @@ public class Pesel extends AbstractAlgorithm {
         for (int i = 1; i < input.length; i++) {
             pesel[i - 1] = Integer.parseInt(input[i]);
             System.out.print(pesel[i - 1]);
-
         }
+
         System.out.println();
+
         if (pesel.length != 11) {
             System.out.println("PESEL nie jest poprawny");
-
         } else {
 
             int sumaLiczb = pesel[0] * 1 + pesel[1] * 3 + pesel[2] * 7 + pesel[3] * 9 + pesel[4] * 1 + pesel[5] * 3
@@ -34,6 +34,5 @@ public class Pesel extends AbstractAlgorithm {
                 System.out.println("PESEL nie jest poprawny");
             }
         }
-
     }
 }

@@ -4,9 +4,6 @@ import Algorytmy.AbstractAlgorithm;
 
 import java.util.Arrays;
 
-/**
- * Created by RENT on 2017-07-24.
- */
 public class WyplacanieKasy extends AbstractAlgorithm {
     @Override
     public String getName() {

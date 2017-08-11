@@ -25,7 +25,5 @@ public class ListaKolorow extends AbstractAlgorithm{
         for(String element: listaKolorow) {
             System.out.println(element);
         }
-
-
     }
 }

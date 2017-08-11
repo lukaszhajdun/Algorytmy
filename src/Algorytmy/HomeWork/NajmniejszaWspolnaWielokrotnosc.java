@@ -14,8 +14,6 @@ public class NajmniejszaWspolnaWielokrotnosc extends AbstractAlgorithm {
         int b = Integer.parseInt(input[2]);
         int nww = (Integer)(a*b)/nwd(a,b);
         System.out.printf("Dla liczb " + a + " i " + b + " NWW to " + nww);
-
-
     }
     private int nwd (int a, int b) {
         if (a==0)
@@ -24,6 +22,5 @@ public class NajmniejszaWspolnaWielokrotnosc extends AbstractAlgorithm {
             return nwd(b%a,a);
         }
     }
-
 }
 

@@ -2,7 +2,6 @@ package Algorytmy.Algorithms;
 
 import Algorytmy.AbstractAlgorithm;
 
-
 public class NajwiekszyWspolnyDzielnik extends AbstractAlgorithm {
     @Override
     public String getName() {

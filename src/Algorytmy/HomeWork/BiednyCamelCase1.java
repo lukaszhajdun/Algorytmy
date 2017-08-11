@@ -3,9 +3,6 @@ package Algorytmy.HomeWork;
 import Algorytmy.AbstractAlgorithm;
 import com.sun.xml.internal.fastinfoset.util.CharArray;
 
-/**
- * Created by RENT on 2017-07-21.
- */
 public class BiednyCamelCase1 extends AbstractAlgorithm {
 
     @Override
